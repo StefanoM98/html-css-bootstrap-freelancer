@@ -13,10 +13,6 @@ a {
     color: inherit;
 }
 
-.flex {
-    display: flex;
-}
-
 /* COMMON */
 .b-r {
     border-radius: 30px;
@@ -52,5 +48,26 @@ header h3 {
 
 .title {
     padding: 20px 0;
+}
+
+/* MAIN SECTION */
+
+/* ABOUT SECTION */
+
+.about {
+    width: 60%;
+    margin: 0 auto;
+    color: white;
+}
+
+.about p {
+    font-size: 1.4rem;
+}
+
+.download a{
+    font-size: 1.5rem;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
 }
 

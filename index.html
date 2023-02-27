@@ -20,17 +20,19 @@
         <div class="ms_container">
             <div class="container-fluid h-100">
                 <div class="row align-items-center h-100">
-                    <div class="col-6 text-uppercase">
+                    <div class="col-10 text-uppercase">
                         <h3>Start Bootstrap</h3> 
                     </div>
-                    <div class="hamburger col-6 text-end">
-                        <i class="fa-solid fa-bars"></i>
-                        <ul class="d-none text-uppercase">
+                    <nav class="col-2">
+                        <div class="hamburger d-md-none text-end">
+                            <i class="fa-solid fa-bars"></i>
+                        </div>
+                        <ul class="d-none d-md-block d-flex text-uppercase">
                             <li><a href="">Portfolio</a></li>
                             <li><a href="">About</a></li>
                             <li><a href="">Contact</a></li>
                         </ul>
-                    </div>
+                    </nav>    
                 </div>
             </div>
         </div>
@@ -56,31 +58,63 @@
 
     <!-- MAIN -->
     <main>
-        <section class="py-4">
-            <div class="container">
+        <!-- IMG SECTION -->
+        <section>
+            <div class="container py-5">
                 <h3 class="text-uppercase">Portfolio</h3>
                 <div class="row gy-4">
-                    <div class="col-12">
+                    <div class="col-12 col-md-6 col-lg-4">
                         <img class="b-r" src="img/cabin.png" alt="">
                     </div>
-                    <div class="col-12">
+                    <div class="col-12 col-md-6 col-lg-4">
                         <img class="b-r" src="img/cake.png" alt="">
                     </div>
-                    <div class="col-12">
+                    <div class="col-12 col-md-6 col-lg-4">
                         <img class="b-r" src="img/circus.png" alt="">
                     </div>
-                    <div class="col-12">
+                    <div class="col-12 col-md-6 col-lg-4">
                         <img class="b-r" src="img/game.png" alt="">
                     </div>
-                    <div class="col-12">
+                    <div class="col-12 col-md-6 col-lg-4">
                         <img class="b-r" src="img/safe.png" alt="">
                     </div>
-                    <div class="col-12">
+                    <div class="col-12 col-md-6 col-lg-4">
                         <img class="b-r" src="img/submarine.png" alt="">
                     </div>
                 </div>
             </div>
         </section>
+        <!-- ABOUT SECTION -->
+        <section>
+            <div class="second_container py-5">
+                <div class="about">
+                    <h3 class=" subtitle text-uppercase text-center">
+                        About
+                    </h3>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-md-6 py-2">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti quas a nesciunt explicabo magni dignissimos culpa ullam hic illo, eveniet omnis veritatis minus quis, minima, voluptate tempore optio sequi doloremque!
+                                </p> 
+                            </div>
+                            <div class="col-12 col-md-6 py-2">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti quas a nesciunt explicabo magni dignissimos culpa ullam hic illo, eveniet omnis veritatis minus quis, minima, voluptate tempore optio sequi doloremque!
+                                </p> 
+                            </div>
+                            <div class=" download col-12 text-center">
+                                <a href="">
+                                    <i class="fa-solid fa-download"></i>
+                                    Download
+                                </a> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </section>
+        <!-- /ABOUT SECTION -->
     </main>
     <!-- /MAIN -->
 
