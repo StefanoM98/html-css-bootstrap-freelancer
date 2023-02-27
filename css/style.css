@@ -44,6 +44,7 @@ header h3 {
 
 .second_container {
     background-color: #1abc9c;
+    color: white;
 }
 
 .container-fluid img {
@@ -52,6 +53,39 @@ header h3 {
 
 .title {
     padding: 20px 0;
+}
+
+.star-hr {
+    padding: 2rem 0;
+}
+
+.star-hr i {
+    padding: 0 10px;
+}
+
+.hrule {
+    width: 80px;
+    height: 3px;
+    background-color: black;
+    border-radius: 20px;
+}
+
+
+.hrule.white {
+    background-color: white;
+}
+
+.work {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.work li {
+    padding: 0 10px;
+    color: white;
+    font-size: 1.5rem;
 }
 
 /* MAIN SECTION */
@@ -120,11 +154,13 @@ header h3 {
     align-items: center;
     justify-content: center;
     padding: 0;
+    justify-content: center;
+    align-items: center;
 }
 
 .list li {
     color: white;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     padding: 0 10px;
 }
 
