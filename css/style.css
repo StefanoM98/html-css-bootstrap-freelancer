@@ -12,11 +12,6 @@ a {
     color: inherit;
 }
 
-/* COMMON */
-.b-r {
-    border-radius: 30px;
-}
-
 /* HEADER SECTION */
 
 .nav-bar {
@@ -25,6 +20,7 @@ a {
 }
 
 .ms_container {
+    max-width: 1300px;
     width: 90%;
     margin: 0 auto;
 }
@@ -160,7 +156,7 @@ header h3 {
 
 .list li {
     color: white;
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     padding: 0 10px;
 }
 
