@@ -24,14 +24,16 @@
     <header>
         <section class="nav-bar">
             <div class="ms_container h-100">
-                <div class="container-fluid h-100">
+                <div class="container h-100">
                     <div class="row align-items-center h-100">
                         <div class="col-10 col-md-8 text-uppercase">
                             <h3>Start Bootstrap</h3>
                         </div>
                         <nav class="col-2 col-md-4">
                             <div class="hamburger d-md-none text-end">
-                                <i class="fa-solid fa-bars"></i>
+                                <button>
+                                    <i class="fa-solid fa-bars"></i>
+                                </button>    
                             </div>
                             <ul class="list d-none d-md-flex text-uppercase">
                                 <li><a href="">Portfolio</a></li>
@@ -43,13 +45,13 @@
                 </div>
             </div>
         </section>    
-        <div class="second_container">
+        <div class="jumbotron">
             <div class="container-fluid text-center">
                 <img src="img/avatar.svg" alt="">
 
-                <h3 class="title text-uppercase">
+                <h1 class="title text-uppercase">
                     Start Bootstrap
-                </h3>
+                </h1>
 
                 <div class="star-hr d-flex align-items-center justify-content-center">
                     <div class="hrule white"></div>
@@ -59,7 +61,9 @@
 
                 <ul class="work col-12 text-center py-3">
                     <li>Graphic Artist</li>
+                    <li><i class="fa-solid fa-horizontal-rule"></i></li>
                     <li>Web Designer</li>
+                    <li><i class="fa-solid fa-horizontal-rule"></i></li>
                     <li>Illustrator</li>
                 </ul>
             </div>
@@ -102,17 +106,17 @@
         </section>
         <!-- ABOUT SECTION -->
         <section>
-            <div class="second_container py-5">
+            <div class="jumbotron py-5">
                 <div class="about">
                     <h3 class="subtitle text-uppercase text-center py-2">
                         About
                     </h3>
+                    <!-- STELLA -->
                     <div class="star-hr d-flex align-items-center justify-content-center ">
                         <div class="hrule white"></div>
                         <i class="fa-solid fa-star"></i>
                         <div class="hrule white"></div>
                     </div>
-                    <!-- STELLA -->
                     <div class="container">
                         <div class="row">
                             <div class="col-12 col-md-6 py-2">
@@ -157,33 +161,27 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-12 py-4">
-                            <div class="form py-2">
-                                Nome
-                            </div>
-
-                            <hr>
-
-                            <div class="form py-2">
-                                Email Address
-                            </div>
-
-                            <hr>
-
-                            <div class="form py-2">
-                                Phone Number
-                            </div>
-
-                            <hr>
-
-                            <div class="form message">
-                                Message
-                            </div>
-
-                            <hr>
-
-                            <div class="send py-4">
-                                <a href="">Send</a>
-                            </div>
+                            <form class="server-action">
+                                <div class="form-floating mb-3">
+                                    <input type="text" class="form-control" id="floatingInput" placeholder="name">
+                                    <label for="floatingInput">Name</label>
+                                </div>
+                                <div class="form-floating mb-3">
+                                    <input type="text" class="form-control" id="floatingInput" placeholder="Email Address">
+                                    <label for="floatingInput">Email Address</label>
+                                </div>
+                                <div class="form-floating mb-3">
+                                    <input type="number" class="form-control" id="floatingInput" placeholder="Phone Number">
+                                    <label for="floatingInput">Phone Number</label>
+                                </div>
+                                <div class="form-floating mb-4">
+                                    <textarea class="form-control" placeholder="Message" id="message" style="height: 100px"></textarea>
+                                    <label for="message">Message</label>
+                                </div>
+                                <div class="send py-4">
+                                    <a href="">Send</a>
+                                </div>
+                            </form>
                         </div> 
                     </div>
                 </div>   
@@ -208,10 +206,18 @@
                         AROUND THE WEB <br>
                     </p>    
                     <ul class="list">
-                        <li><i class="fa-brands fa-facebook"></i></li>
-                        <li><i class="fa-brands fa-facebook"></i></li>                   
-                        <li><i class="fa-brands fa-twitter"></i></li>
-                        <li><i class="fa-brands fa-linkedin"></i></li>
+                        <li>
+                            <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href=""><i class="fa-brands fa-google-plus-g"></i></a>
+                        </li>
+                        <li>
+                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        </li>
                     </ul>
                 </div>
                 <div class="col-12 py-2 text-center col-md-4">

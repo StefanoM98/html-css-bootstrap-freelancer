@@ -36,9 +36,14 @@ header h3 {
     padding: 0.7rem;
 }
 
+button {
+    border: none;
+    background-color: rgba(0, 0, 0, 0.0);
+}
+
 /* IMG HEADER SECTION */
 
-.second_container {
+.jumbotron {
     background-color: #1abc9c;
     color: white;
 }
@@ -49,6 +54,7 @@ header h3 {
 
 .title {
     padding: 20px 0;
+    font-size: 2.5rem;
 }
 
 .star-hr {
@@ -129,6 +135,18 @@ header h3 {
     padding: 10px;
     border-radius: 10px;
 }
+
+.form-control {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+}
+
+.form-control:focus {
+    box-shadow: unset;
+}
+
 
 /* FOOTER SECTION */
 
